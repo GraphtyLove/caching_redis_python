@@ -34,7 +34,7 @@ you need to load you model and perform a prediction.
 
 That starts to be heavy and slow. You analyse your API logs and you notice that 50% of the sentences are very common.
 
-You could or spend more money on powerful servers or use cache.
+You could either spend more money on powerful servers or use cache.
 
 You decide to go for caching, you specify a key that contains the sentence in it.
 
@@ -161,7 +161,7 @@ def expensive_function(username: str) -> dict:
 ```
 
 ## Some vocabulary
-When dealing with cache, or we find something in the cache, then we say it's a `hit` or we don't
+When dealing with cache, either we find something in the cache, then we say it's a `hit` or we don't
 find anything, then we say it's a `miss`. Those words are used a lot in the literature, make sure to remember them.
 
 [More information here](https://redisson.org/glossary/cache-miss.html).
