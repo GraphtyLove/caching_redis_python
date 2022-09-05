@@ -1,0 +1,27 @@
+version: '3.8'
+services:
+  redis:
+    image: redis:bullseye
+    ports:
+      - "6379:6379"
+    volumes:
+      - $PWD/data:/data
+    networks:
+      - redis
+
+  api:
+    restart: always
+    build: .
+    ports:
+      - "8000:8000"
+    depends_on:
+      - redis
+    environment:
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - REDIS_DB=0
+    networks:
+      - redis
+
+networks:
+  redis:
