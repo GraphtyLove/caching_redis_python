@@ -32,7 +32,7 @@ You made a powerful AI model that can predict sentiment out of a sentence.
 A lot of users started to use your API. Each time a user send a sentence, 
 you need to load you model and perform a prediction.
 
-That starts to be heavy and slow. You analyse your API logs and you notice that 50% of the sentences are very common.
+That starts to be heavy and slow. You analyse your API logs, and you notice that 50% of the sentences are very common.
 
 You could either spend more money on powerful servers or use cache.
 
