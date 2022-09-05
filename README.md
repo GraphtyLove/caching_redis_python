@@ -167,5 +167,5 @@ find anything, then we say it's a `miss`. Those words are used a lot in the lite
 [More information here](https://redisson.org/glossary/cache-miss.html).
 
 ## Resources
-- [Redis with FastApi -> Redis official guide](https://developer.redis.com/develop/python/fastapi/) This article focus on time-series and is a bit more advanced than what we did here.
+- [Redis with FastApi *(Redis official guide)*](https://developer.redis.com/develop/python/fastapi/) This article focus on time-series and is a bit more advanced than what we did here.
 - [Redis with Flask](https://levelup.gitconnected.com/implement-api-caching-with-redis-flask-and-docker-step-by-step-9139636cef24)
